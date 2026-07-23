@@ -57,7 +57,7 @@ body {
     linear-gradient(135deg, #05070f 0%, #282369 100%);
   background-blend-mode: overlay, screen, hard-light;
   overflow: hidden;
-  animation: aurora-drift 10s infinite alternate ease-in-out;
+  animation: aurora-drift 20s infinite alternate ease-in-out;
 }
 
 .container::before {
@@ -102,7 +102,7 @@ body {
       5% 10%,
       -10% -5%,
       15% 0%;
-    filter: hue-rotate(60deg) brightness(1);
+    filter: hue-rotate(40deg) brightness(1);
   }
 }
 

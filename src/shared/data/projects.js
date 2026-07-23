@@ -1,7 +1,5 @@
 /**
- * Proyectos reales (tomados de tu perfil de GitHub: jmagzul-2024029).
- * Agrega tus capturas en /public/projects/ y referencia la ruta en "image".
- * Mientras no subas la captura, se muestra un placeholder.
+ * Tarjetas de los proyectos
  */
 const projects = [
     {
@@ -9,17 +7,9 @@ const projects = [
         title: 'Kinal-Web',
         description:
             'Sitio con mi biografía, mis gustos y un rediseño de la página de Fundación Kinal.',
-        stack: ['HTML', 'CSS', 'JavaScript'],
+        stack: ['HTML', 'CSS', 'JavaScript'], /* Etiquetas de los lenguajes que se usaron */
         repo: 'https://github.com/jmagzul-2024029/Kinal-Web',
         image: '/projects/kinal-web.png',
-    },
-    {
-        id: 'kinal-sport',
-        title: 'Kinal Sport',
-        description: 'Mi primer proyecto construido con React, tienda deportiva con catálogo de productos.',
-        stack: ['React', 'Vite'],
-        repo: 'https://github.com/jmagzul-2024029/kinal-sport',
-        image: '/projects/kinal-sport.png',
     },
     {
         id: 'agenda-web',

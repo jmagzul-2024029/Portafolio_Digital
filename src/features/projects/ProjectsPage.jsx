@@ -6,7 +6,7 @@ function ProjectsPage() {
         <section className="panel">
             <div className="section-title">
                 <h2>Portafolio de aplicaciones</h2>
-                <span>2e / 2f · Proyectos</span>
+                <span>Proyectos</span>
             </div>
             <p>Proyectos reales con enlace directo a su repositorio en GitHub.</p>
             <div className="project-grid">
