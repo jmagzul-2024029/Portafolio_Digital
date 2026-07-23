@@ -6,6 +6,8 @@ const links = [
     { to: '/sobre-mi', label: 'Sobre mí' },
     { to: '/proyectos', label: 'Proyectos' },
     { to: '/contacto', label: 'Contacto' },
+    // Apunta directamente al archivo y se añade el flag download para descargar
+    { to: '/HT3-2024029.pdf', label: 'Download CV', download: true },
 ]
 
 function Navbar() {
@@ -20,17 +22,34 @@ function Navbar() {
             </NavLink>
 
             <nav className={`nav-links ${isMenuOpen ? 'is-open' : ''}`} aria-label="Navegación principal">
-                {links.map((link) => (
-                    <NavLink
-                        key={link.to}
-                        to={link.to}
-                        end={link.to === '/'}
-                        className={({ isActive }) => (isActive ? 'is-active' : '')}
-                        onClick={closeMenu}
-                    >
-                        {link.label}
-                    </NavLink>
-                ))}
+                {links.map((link) => {
+                    // 2. Si el link tiene la propiedad download, renderiza un enlace HTML tradicional
+                    if (link.download) {
+                        return (
+                            <a
+                                key={link.to}
+                                href={link.to}
+                                download="HT3-2024029.pdf" // Fuerza la descarga y asigna nombre al archivo
+                                onClick={closeMenu}
+                            >
+                                {link.label}
+                            </a>
+                        )
+                    }
+
+                    // 3. De lo contrario, sigue usando el NavLink de React Router
+                    return (
+                        <NavLink
+                            key={link.to}
+                            to={link.to}
+                            end={link.to === '/'}
+                            className={({ isActive }) => (isActive ? 'is-active' : '')}
+                            onClick={closeMenu}
+                        >
+                            {link.label}
+                        </NavLink>
+                    )
+                })}
             </nav>
 
             <button
