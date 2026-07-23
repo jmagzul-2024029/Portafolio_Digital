@@ -3,50 +3,30 @@ function ContactPage() {
         <section className="panel contact-panel" style={{ flexDirection: 'column', alignItems: 'stretch' }}>
             <div className="section-title">
                 <h2>¿Listo para crear algo increíble?</h2>
-                <span>03 · Contacto</span>
+                <span>Contacto</span>
             </div>
-            <p>Estoy disponible para prácticas, proyectos colaborativos y nuevas oportunidades.</p>
+            <p>Estoy disponible para prácticas, proyectos colaborativos y nuevas oportunidades. Haz click sobre las tarjetas de abajo y conoce más sobre mi trabajo.</p>
 
             <div className="contact-grid">
                 <a
                     className="contact-card"
-                    href="https://linkedin.com/in/tu-usuario"
+                    href="https://www.linkedin.com/in/jorge-magzul-953925423/?skipRedirect=true"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <h3>LinkedIn</h3>
                     <p>Perfil profesional y trayectoria.</p>
+                    <p>Revisa mi perfil profesional para conocer más sobre mis aptitudes en trabajo en equipo, metodologías ágiles y proyectos colaborativos.</p>
                 </a>
-                <a
-                    className="contact-card"
-                    href="https://www.computrabajo.com.gt"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <h3>CompuTrabajo</h3>
-                    <p>Disponibilidad para nuevas oportunidades.</p>
-                </a>
+
                 <a className="contact-card" href="https://github.com/jmagzul-2024029" target="_blank" rel="noreferrer">
                     <h3>GitHub</h3>
-                    <p>Podrás ver mi perfil o directamente los repositorios de mis proyectos.</p>
-                    <ol>
-                        <li><a href="https://github.com/jmagzul-2024029/Tienda-.git" style={{ textDecoration: 'none'}} target="_blank" rel="noreferrer">
-                            Tienda Electrónica
-                        </a></li>
-                        <li><a href="https://github.com/jmagzul-2024029/Ahorcados-2024029.git" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">
-                            Juego de Ahorcados
-                        </a></li>
-                        <li><a href="https://github.com/jmagzul-2024029/Ahorcados-2024029.git" style={{ textDecoration: 'none'}} target="_blank" rel="noreferrer">
-                            Juego de Ahorcados
-                        </a></li>
-                        <li><a href="https://github.com/jmagzul-2024029/Ahorcados-2024029.git" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">
-                            Juego de Ahorcados 
-                        </a></li>
-                    </ol>
+                    <p>Explora los repositorios de mis proyectos, desde aplicaciones full-stack hasta soluciones desarrolladas con React, Java, Node.js y más tecnologías.</p>
+
                 </a>
-                <a className="contact-card" href="mailto:tu-correo@ejemplo.com">
+                <a className="contact-card" href="https://mail.google.com/mail/?view=cm&fs=1&to=jorgemagzul10@gmail.com" target="_blank">
                     <h3>Correo</h3>
-                    <p>tu-correo@ejemplo.com</p>
+                    <p>Escríbeme directamente para consultas sobre prácticas, colaboraciones o cualquier duda sobre mis proyectos.</p>
                 </a>
             </div>
         </section>

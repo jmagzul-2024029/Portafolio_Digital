@@ -7,7 +7,7 @@ const skills = [
     { name: 'Node.js', level: 60 },
     { name: 'CSS / UI Design', level: 75 },
     { name: 'Git & GitHub', level: 78 },
-    { name: 'Accesibilidad web', level: 55 },
+    { name: 'Java', level: 70 },
 ]
 
 export default skills

@@ -6,7 +6,7 @@ function Skills() {
         <div className="panel">
             <div className="section-title">
                 <h2>Habilidades</h2>
-                <span>2c · Nivel de dominio</span>
+                <span>Nivel de dominio</span>
             </div>
             <div className="skill-bars">
                 {skills.map((skill) => (

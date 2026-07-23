@@ -40,7 +40,7 @@ function Resume() {
         <div className="panel">
             <div className="section-title">
                 <h2>Educación y experiencia</h2>
-                <span>2d · Currículum</span>
+                <span>Currículum</span>
             </div>
             <h3 className="timeline-title">Educación</h3>
             <Timeline items={education} />
