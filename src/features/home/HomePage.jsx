@@ -22,7 +22,7 @@ function HomePage() {
 
             <aside className="hero-card" aria-label="Foto de perfil">
                 <img src={DevImg} alt="Jorge Magzul" />
-                <p>Me llamo Jorge Magzul, actualmente soy estudiante de informática, me apasiona el mundo del desarrollo y la superación constante</p>
+                <p>¡Hola! Soy Jorge Magzul, actualmente soy estudiante de informática, me apasiona el mundo del desarrollo y la superación y aprendizaje constante.</p>
                 <ul className="highlights">
                     <li>Desarrollo con React & JavaScript</li>
                     <li>React Native</li>
