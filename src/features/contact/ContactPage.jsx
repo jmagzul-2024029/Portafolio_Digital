@@ -7,6 +7,28 @@ function ContactPage() {
             </div>
             <p>Estoy disponible para prácticas, proyectos colaborativos y nuevas oportunidades. Haz click sobre las tarjetas de abajo y conoce más sobre mi trabajo.</p>
 
+            <div className="contact-stats">
+                <div className="stat-box">
+                    <h3>10+</h3>
+                    <span>Proyectos</span>
+                </div>
+
+                <div className="stat-box">
+                    <h3>8+</h3>
+                    <span>Tecnologías</span>
+                </div>
+
+                <div className="stat-box">
+                    <h3>100%</h3>
+                    <span>Compromiso</span>
+                </div>
+
+                <div className="stat-box">
+                    <h3>🟢</h3>
+                    <span>Disponible</span>
+                </div>
+            </div>
+
             <div className="contact-grid">
                 <a
                     className="contact-card"
