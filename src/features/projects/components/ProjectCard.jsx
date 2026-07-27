@@ -8,9 +8,7 @@ function ProjectCard({ project }) {
             <div className="project-card__image">
                 {imageFailed ? (
                     <p className="project-card__placeholder">
-                        Agrega tu captura en
-                        <br />
-                        /public{project.image}
+                        Imagen-proyecto
                     </p>
                 ) : (
                     <img
