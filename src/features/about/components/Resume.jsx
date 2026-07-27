@@ -9,10 +9,10 @@ const education = [
 
 const experience = [
     {
-        title: 'Proyectos de curso y preprácticas',
+        title: 'Proyectos en la carrera',
         place: 'Fundación Kinal',
         period: 'Actual',
-        detail: 'Desarrollo frontend en proyectos colaborativos, incluyendo un sistema bancario en equipo.',
+        detail: 'Desarrollo frontend en proyectos colaborativos, incluyendo un sistema bancario y sistema de restaurantes en equipo.',
     },
 ]
 
@@ -40,7 +40,6 @@ function Resume() {
         <div className="panel">
             <div className="section-title">
                 <h2>Educación y experiencia</h2>
-                <span>Currículum</span>
             </div>
             <h3 className="timeline-title">Educación</h3>
             <Timeline items={education} />
