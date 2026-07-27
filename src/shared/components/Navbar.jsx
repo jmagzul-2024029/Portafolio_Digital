@@ -7,7 +7,7 @@ const links = [
     { to: '/proyectos', label: 'Proyectos' },
     { to: '/contacto', label: 'Contacto' },
     // Apunta directamente al archivo y se añade el flag download para descargar
-    { to: '/HT3-2024029.pdf', label: 'Download CV', download: true },
+    { to: '/CV_Jorge_Magzul.pdf', label: 'Download CV', download: true },
 ]
 
 function Navbar() {
@@ -29,7 +29,7 @@ function Navbar() {
                             <a
                                 key={link.to}
                                 href={link.to}
-                                download="HT3-2024029.pdf" // Fuerza la descarga y asigna nombre al archivo
+                                download="CV_Jorge_Magzul.pdf" // Fuerza la descarga y asigna nombre al archivo
                                 onClick={closeMenu}
                             >
                                 {link.label}
