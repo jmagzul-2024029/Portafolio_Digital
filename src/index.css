@@ -34,6 +34,11 @@ body {
   color: #e6ecff;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 #root {
   min-height: 100vh;
   z-index: 1;
@@ -110,6 +115,11 @@ body {
   }
 }
 
+.container {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
 
 a {
   color: inherit;
